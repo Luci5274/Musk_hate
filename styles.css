@@ -27,6 +27,9 @@ nav a:hover {
     width: fit-content;
     text-decoration: none;
     color: #505050;
+    border: 1px solid #505050;
+    border-radius: 10px;
+    
 }
 
 @keyframes musk-mockery {
@@ -38,6 +41,17 @@ nav a:hover {
     70%{color: #4b369d;}
     84%{color: #70369d;}
     100%{color: #f293e2;}
+}
+
+@keyframes border {
+    0%{border: 1px solid #e81416;}
+    14%{border:1px solid #ffa500;}
+    28%{border:1px solid #faeb36;}
+    42%{border:1px solid #79c314;}
+    56%{border:1px solid #487de7;}
+    70%{border:1px solid #4b369d;}
+    84%{border:1px solid #70369d;}
+    100%{border:1px solid #f293e2;}
 }
 
 .bio img {
