@@ -37,3 +37,12 @@ a:hover {
     84%{color: #70369d;}
     100%{color: #f293e2;}
 }
+
+.bio img {
+    width: 500px;
+    border-radius: 10%;
+}
+
+.bio {
+    text-align: center;
+}
