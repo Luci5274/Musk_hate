@@ -4,6 +4,10 @@ body {
     color: #505050;
 } 
 
+nav ul{
+    list-style: none;
+}
+
 a{
     text-decoration: none;
     color: #505050;
@@ -14,6 +18,22 @@ a:hover {
 }
 
 .musk-mockery > h2:hover{
-    text-decoration: underline;
-    
+    /* text-decoration: underline; */
+    animation-name: musk-mockery;
+    animation-iteration-count: infinite;
+    animation-duration: 9s;
+    animation-direction: alternate;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: initial;
+}
+
+@keyframes musk-mockery {
+    0%{color: #e81416;}
+    14%{color: #ffa500;}
+    28%{color: #faeb36;}
+    42%{color: #79c314;}
+    56%{color: #487de7;}
+    70%{color: #4b369d;}
+    84%{color: #70369d;}
+    100%{color: #f293e2;}
 }
