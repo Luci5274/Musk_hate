@@ -8,12 +8,7 @@ nav ul{
     list-style: none;
 }
 
-a{
-    text-decoration: none;
-    color: #505050;
-}
-
-a:hover {
+nav a:hover {
     text-decoration: underline;
 }
 
@@ -27,6 +22,16 @@ a:hover {
     animation-fill-mode: initial;
 }
 
+.musk-mockery a{
+    text-align: left;
+    width: fit-content;
+    text-decoration: none;
+    color: #505050;
+    border: 1px solid #505050;
+    border-radius: 10px;
+    
+}
+
 @keyframes musk-mockery {
     0%{color: #e81416;}
     14%{color: #ffa500;}
@@ -37,3 +42,28 @@ a:hover {
     84%{color: #70369d;}
     100%{color: #f293e2;}
 }
+
+@keyframes border {
+    0%{border: 1px solid #e81416;}
+    14%{border:1px solid #ffa500;}
+    28%{border:1px solid #faeb36;}
+    42%{border:1px solid #79c314;}
+    56%{border:1px solid #487de7;}
+    70%{border:1px solid #4b369d;}
+    84%{border:1px solid #70369d;}
+    100%{border:1px solid #f293e2;}
+}
+
+.bio img {
+    width: 420px;
+    border-radius: 10%;
+}
+
+.bio {
+    text-align: center;
+    margin: auto;
+    position: absolute;
+    top: 8px;
+    left: 30%;
+}
+
