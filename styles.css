@@ -4,15 +4,19 @@ body {
     color: #505050;
 } 
 
-nav ul{
+ nav ul{
     list-style: none;
+}
+
+nav {
+    position: sticky;
 }
 
 nav a:hover {
     text-decoration: underline;
 }
 
-.musk-mockery > h2:hover{
+.musk-mockery h2:hover{
     /* text-decoration: underline; */
     animation-name: musk-mockery;
     animation-iteration-count: infinite;
@@ -23,13 +27,27 @@ nav a:hover {
 }
 
 .musk-mockery a{
-    text-align: left;
-    width: fit-content;
     text-decoration: none;
     color: #505050;
+}
+
+.musk-mockery {
+    background-color: #f0f1f2f3;
+    display: block;
+    position: sticky;
+    top: 10px;
+    z-index: 100;
+    padding: 5px;
+    text-align: left;
+    width: fit-content;
     border: 1px solid #505050;
     border-radius: 10px;
-    
+    animation-name: borderanim;
+    animation-iteration-count: infinite;
+    animation-duration: 9s;
+    animation-direction: alternate;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: initial;
 }
 
 @keyframes musk-mockery {
@@ -43,27 +61,41 @@ nav a:hover {
     100%{color: #f293e2;}
 }
 
-@keyframes border {
-    0%{border: 1px solid #e81416;}
-    14%{border:1px solid #ffa500;}
-    28%{border:1px solid #faeb36;}
-    42%{border:1px solid #79c314;}
-    56%{border:1px solid #487de7;}
-    70%{border:1px solid #4b369d;}
-    84%{border:1px solid #70369d;}
-    100%{border:1px solid #f293e2;}
+@keyframes borderanim {
+    0%{border: 2px solid #e81416;}
+    14%{border:2px solid #ffa500;}
+    28%{border:2px solid #faeb36;}
+    42%{border:2px solid #79c314;}
+    56%{border:2px solid #487de7;}
+    70%{border:2px solid #4b369d;}
+    84%{border:2px solid #70369d;}
+    100%{border:2px solid #f293e2;}
+}
+
+h1{
+    font-size: xx-large;
 }
 
 .bio img {
     width: 420px;
     border-radius: 10%;
 }
-
+ 
 .bio {
     text-align: center;
+    position: relative;
+    top: -100px;
     margin: auto;
-    position: absolute;
-    top: 8px;
-    left: 30%;
+    /* left: 30%; */
+    /* width: 70%; */
 }
 
+iframe {
+    text-align: center;
+    width: 98vw;
+    height: 90vh;
+    margin: auto auto 150px auto;
+    border-radius: 10px;
+    border: 2px groove transparent;
+    border-bottom: #505050 2px groove;
+}
