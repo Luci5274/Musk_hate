@@ -23,13 +23,22 @@ nav a:hover {
 }
 
 .musk-mockery a{
-    text-align: left;
-    width: fit-content;
     text-decoration: none;
     color: #505050;
+}
+
+.musk-mockery {
+    padding: 5px;
+    text-align: left;
+    width: fit-content;
     border: 1px solid #505050;
     border-radius: 10px;
-    
+    animation-name: borderanim;
+    animation-iteration-count: infinite;
+    animation-duration: 9s;
+    animation-direction: alternate;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: initial;
 }
 
 @keyframes musk-mockery {
@@ -43,7 +52,7 @@ nav a:hover {
     100%{color: #f293e2;}
 }
 
-@keyframes border {
+@keyframes borderanim {
     0%{border: 1px solid #e81416;}
     14%{border:1px solid #ffa500;}
     28%{border:1px solid #faeb36;}
@@ -61,9 +70,17 @@ nav a:hover {
 
 .bio {
     text-align: center;
-    margin: auto;
     position: absolute;
     top: 8px;
+    margin: auto;
     left: 30%;
+    /* width: 70%; */
 }
 
+iframe {
+    width: 600px;
+    height: 800px;
+    margin-bottom: 100px;
+    border-radius: 10px;
+    border: 2px groove transparent;
+}
