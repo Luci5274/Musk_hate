@@ -32,7 +32,7 @@ nav a:hover {
 }
 
 .musk-mockery {
-    background-color: #f4f5f6f7;
+    background-color: #f1f2f3f0;
     display: block;
     position: sticky;
     top: 10px;
@@ -64,13 +64,13 @@ nav a:hover {
 
 /* animation for the border around the nav bar */
 @keyframes borderanim {
-    0%{border: 2px solid #e81416;}
-    14%{border:2px solid #ffa500;}
-    28%{border:2px solid #faeb36;}
-    42%{border:2px solid #79c314;}
-    56%{border:2px solid #487de7;}
-    70%{border:2px solid #4b369d;}
-    84%{border:2px solid #70369d;}
+    0% { border:2px solid #e81416;}
+    14% {border:2px solid #ffa500;}
+    28% {border:2px solid #faeb36;}
+    42% {border:2px solid #79c314;}
+    56% {border:2px solid #487de7;}
+    70% {border:2px solid #4b369d;}
+    84% {border:2px solid #70369d;}
     100%{border:2px solid #f293e2;}
 }
 
