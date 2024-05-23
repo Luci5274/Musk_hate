@@ -1,5 +1,5 @@
 body {
-    background-color: #f0f1f2f3;
+    background-color: #f4f5f6f7;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: #505050;
 } 
@@ -32,7 +32,7 @@ nav a:hover {
 }
 
 .musk-mockery {
-    background-color: #f0f1f2f3;
+    background-color: #f4f5f6f7;
     display: block;
     position: sticky;
     top: 10px;
@@ -51,13 +51,13 @@ nav a:hover {
 }
 
 @keyframes musk-mockery {
-    0%{color: #e81416;}
-    14%{color: #ffa500;}
-    28%{color: #faeb36;}
-    42%{color: #79c314;}
-    56%{color: #487de7;}
-    70%{color: #4b369d;}
-    84%{color: #70369d;}
+    0%  {color: #e81416;}
+    14% {color: #ffa500;}
+    28% {color: #faeb36;}
+    42% {color: #79c314;}
+    56% {color: #487de7;}
+    70% {color: #4b369d;}
+    84% {color: #70369d;}
     100%{color: #f293e2;}
 }
 
@@ -84,7 +84,7 @@ h1{
 .bio {
     text-align: center;
     position: relative;
-    top: -100px;
+    top: -150px;
     margin: auto;
     /* left: 30%; */
     /* width: 70%; */
@@ -98,4 +98,21 @@ iframe {
     border-radius: 10px;
     border: 2px groove transparent;
     border-bottom: #505050 2px groove;
+    border-top: #505050 2px groove;
+}
+
+ol {
+    list-style-type: upper-roman;
+    text-align: center;
+}
+
+.hate {
+    text-align: center;
+    width: fit-content;
+    padding: 8px;
+    margin: auto;
+    margin-bottom: 100px;
+    background-color: #fff;
+    border: 1px groove floralwhite;
+    border-radius: 10px;
 }
