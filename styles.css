@@ -118,3 +118,21 @@ ol {
     border: 1px groove #a0a0a0a0;
     border-radius: 10px;
 }
+
+.list-item {
+    cursor: pointer;
+}
+
+
+.details {
+    color: #ccc;
+    background-color: #505050;
+    border-radius: 5px;
+    padding: 10px;
+    display: none;
+    border-top: 1px solid #ccc;
+}
+
+.active + .details {
+    display: block;
+}
